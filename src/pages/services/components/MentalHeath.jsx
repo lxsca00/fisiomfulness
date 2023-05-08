@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from "react"
-import PopupForm from "../../components/PopupForm"
+import PopupForm from "../../../components/PopupForm"
 
-const SaludMentalContainer = () => {
+const MentalHealth = () => {
   const [isModalOpen, setIsModalOpen] = useState(false);
 
   const handleBodyOverflow = (isHidden) => {
@@ -92,4 +92,4 @@ const SaludMentalContainer = () => {
   )
 }
 
-export default SaludMentalContainer
+export default MentalHealth

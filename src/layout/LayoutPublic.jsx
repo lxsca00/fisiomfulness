@@ -3,6 +3,7 @@ import { Outlet } from "react-router-dom"
 import { ImWhatsapp } from "react-icons/im"
 
 import Header from "../components/Header"
+import { Footer } from "../components/Footer"
 
 const LayoutPublic = () => {
   return (
@@ -13,7 +14,9 @@ const LayoutPublic = () => {
         <a href="https://api.whatsapp.com/send/?phone=51934985123" target="_blank" className="w-14 h-14 rounded-xl grid place-content-center text-white text-[36px] cursor-pointer bg-gradient-to-t from-[#01b923] to-[#30d847] active:scale-[.96]">
           <ImWhatsapp />
         </a>
+        
       </div>
+      <Footer/>
     </>
   )
 }

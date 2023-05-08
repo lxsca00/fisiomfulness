@@ -7,19 +7,14 @@ export const links = [
         icon: <BiHomeAlt2 />,
     },
     {
-        to: '/quienes-somos',
-        text: 'Quiénes Somos',
+        to: '/about',
+        text: 'Sobre nosotros',
         icon: <BiUser />,
     },
     {
-        to: '/servicios',
+        to: '/services',
         text: 'Servicios',
         icon: <BiCog />,
-    },
-    {
-        to: '/trabaja-con-nosotros',
-        text: 'Trabaja con Nosotros',
-        icon: <BiBriefcaseAlt />,
     },
     {
         to: '/blog',
@@ -31,19 +26,19 @@ export const links = [
 export const services = [
     {
         id: 1,
-        to: "salud-mental",
+        to: "mental-health",
         imageName: "service-1.jpg",
         title: "Salud Mental"
     },
     {
         id: 2,
-        to: "salud-fisica",
+        to: "physical-health",
         imageName: "service-2.jpg",
         title: "Salud Física"
     },
     {
         id: 3,
-        to: "salud-nutricional",
+        to: "nutritional-health",
         imageName: "service-3.jpg",
         title: "Salud Nutricional"
     },
